@@ -135,7 +135,6 @@ function gamePlay(){
     let road=gameArea.getBoundingClientRect();
 
     if(player.start){
-        carAccident.pause()
 
         moveLines()
         moveEnemy(car)
